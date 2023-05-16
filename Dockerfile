@@ -16,7 +16,7 @@
     RUN npm install --global yarn@1.22.18
     RUN npm install --global json
     RUN curl https://install.meteor.com/ | sh
-
+    RUN ls -l
     #WORKDIR Rocket.Chat
     #RUN json -I -f package.json -e "this.volta.node=\"14.21.3\""
     #RUN json -I -f package.json -e "this.engines.node=\"14.21.3\""
