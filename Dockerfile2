@@ -1,0 +1,2 @@
+ FROM lab6-build
+ RUN yarn run testunit
