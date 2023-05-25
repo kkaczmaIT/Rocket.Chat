@@ -1,3 +1,3 @@
- FROM mdcwl-lab-test:latest
+ FROM mdcwl-lab-tmp:latest
  WORKDIR appDir
  RUN yarn dsv
