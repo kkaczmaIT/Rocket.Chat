@@ -1,3 +1,6 @@
  FROM mdcwl-lab-tmp:latest
  WORKDIR appDir
+ RUN ls -l
+ WORKDIR Rocket.Chat
+ RUN ls -l
  RUN yarn dsv
