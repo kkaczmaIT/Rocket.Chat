@@ -1,2 +1,3 @@
- FROM lab6-build
- RUN yarn run testunit
+ FROM mdcwl-lab:latest
+ WORKDIR appDir
+ RUN yarn dsv
