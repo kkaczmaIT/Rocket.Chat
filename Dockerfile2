@@ -3,4 +3,4 @@
  RUN ls -l
  WORKDIR Rocket.Chat
  RUN ls -l
- RUN yarn dsv
+ ENTRYPOINT yarn dsv
